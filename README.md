@@ -31,11 +31,9 @@ If your tutorial requires any lengthy download or install procedures please let 
 * show some use cases
 * discuss pros/cons
 
-You may use any presentation technology, although [reveal.js](https://github.com/hakimel/reveal.js) is particularly fitting as an open source javascript library, and supports code blocks. :gem:
-
 ### Tutorial Section
 
-(~30 minutes)
+(~30-40 minutes)
 
 Your written tutorial document will be a walkthrough of building something using the specific web technologies.
 

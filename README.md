@@ -2,68 +2,44 @@
 
 Welcome! We're going to build a landing page, so basically what we did last week but better and we'll do it in only **30 minutes**. Thanks, Materialize!
 
-🚀 In teams of 3, build an awesome landing page for new company called ------. They do something -------- cool, and want an eye-catching new website. May the best page win! Hint: they love cool animations and effects.
+We've given you an HTML file, complete with nice-looking navigation and footer (you've already seen how frameworks make it easy to create those, from the last workshop). We also have a nicely formatted section in the middle for you.
+
+🚀 What do you need to add? Better title styles, images, and button effects! Plus, a modal **(OR SOMETHING ELSE IDK)**
 
 Also, while we go through the tutorial, you might find it helpful to have <a href="http://materializecss.com/">Materialize</a> open so you can check out cool features, classes, and effects yourself. There's plenty of cool stuff that we won't cover that will make YOUR website much cooler.
 
-## Setting up Materialize
+## Basics
 
-🚀 Download stuff
+🚀 Add in some lines to the `head`:
 
-🚀 Use our template file
-
-🚀 Link the Materialize CSS file or something
-
-**Things to notice:** 
-
-## Grid and Layout
-
-🚀 
-
-
-
-## Navigation bar
-
-Create an awesomer nav bar. Here are some examples - use one of these or check out Materialize for other built-in classes.
-
-REPLACE THIS CODE STUFF
-* `<nav>` for the navbar (even though it is transparent).
-* `<ul>` unordered lists are often used for nav components, if you do it'll help to get rid of the bullets using `list-style-type: none;`
-* `<footer>` is a good tag to use for... footer things.
-* `<div>`, `<span>`, `<a>`, `<h1>`, `<p>` will all be useful.
-* `<input>`, and `<button>` for any form like elements.
-
-## Footer
-
-While we're at it, let's spruce up the footer too.
-
-
-
-## Collections
-
-🚀
-
-REPLACE THE CODE
-```css
-body {
-  margin: 0;
-  padding: 0;
-}
+```
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
 ```
 
 
-## Modals
+🚀 Do something with the title
 
+code
 
+## Fix up the images
 
+🚀 Do something with the images (give them square images here, they'll make them circles. maybe it can be a team page with profile shots?)
 
-## Buttons and effects
+code
 
-Now it's time to spruce up your buttons with cool effects. We'll check out the built-in "raised" and "flat" button styles, as well as the "wave" and "pulse" animations.
+## Stylize the icons
 
-## Add in your team members!
+🚀 Have them add style to the button - make button normal, but they need to stylize it plus give it the wave effect
 
-Let's circle up a square image for the logo!
+code
+
+## Modal
+
+🚀 Work on a modal or a collection? Or a carousel, unless that's too hard
+
+code
 
 
 
@@ -71,5 +47,4 @@ Let's circle up a square image for the logo!
 ## And You Are Done!
 
 
-## Resources:
 

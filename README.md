@@ -1,67 +1,75 @@
-# CS52 Workshops
+# Our mission :airplane:
 
-![](http://i.giphy.com/eUh8NINbZf9Ys.gif)
+Welcome! We're going to build a landing page, so basically what we did last week but better and we'll do it in only **30 minutes**. Thanks, Materialize!
 
-Each workshop session will be ~60 minutes on a web technology, tool, framework, or concept. It will consist of both a short presentation as well as a tutorial. The tutorial will be a written online document in the form of a [markdown](https://guides.github.com/features/mastering-markdown/) readme file in a git repo — you can start by forking this very repo. During the tutorial section the class will work in teams of 3 following along with the instructions in the document. The team presenting will answer questions and help the individual teams along.
+🚀 In teams of 3, build an awesome landing page for new company called ------. They do something -------- cool, and want an eye-catching new website. May the best page win! Hint: they love cool animations and effects.
+
+Also, while we go through the tutorial, you might find it helpful to have <a href="http://materializecss.com/">Materialize</a> open so you can check out cool features, classes, and effects yourself. There's plenty of cool stuff that we won't cover that will make YOUR website much cooler.
+
+## Setting up Materialize
+
+🚀 Download stuff
+
+🚀 Use our template file
+
+🚀 Link the Materialize CSS file or something
+
+**Things to notice:** 
+
+## Grid and Layout
+
+🚀 
 
 
-## Workshop Overview
 
-* [10-15 Minute Intro Presentation](#presentation-section)
-* [30 Minute Tutorial](#tutorial-section)
-* [5-10 Minute Wrap-Up Discussion](#wrap-up-discussion-section)
+## Navigation bar
 
-## Teams
+Create an awesomer nav bar. Here are some examples - use one of these or check out Materialize for other built-in classes.
 
-Teams of ~5 will be formed around dates and a set of potential topics. Your and your team may chose 1 or 2 technologies from the list or may suggest alternative related technologies/topics.
+REPLACE THIS CODE STUFF
+* `<nav>` for the navbar (even though it is transparent).
+* `<ul>` unordered lists are often used for nav components, if you do it'll help to get rid of the bullets using `list-style-type: none;`
+* `<footer>` is a good tag to use for... footer things.
+* `<div>`, `<span>`, `<a>`, `<h1>`, `<p>` will all be useful.
+* `<input>`, and `<button>` for any form like elements.
 
-## Setup
+## Footer
 
-If your tutorial requires any lengthy download or install procedures please let the class know at least 2 days in advance.
-
-## Details
+While we're at it, let's spruce up the footer too.
 
 
-### Presentation Section
 
-~(10-15 minutes)
+## Collections
 
-* motivate the technology
-* show where the technology fits into the web dev process (dev tool, frontend framework, preprocessor, language etc)
-* show some use cases
-* discuss pros/cons
+🚀
 
-### Tutorial Section
-
-(~30-40 minutes)
-
-Your written tutorial document will be a walkthrough of building something using the specific web technologies.
-
-It should include:
-
-* Overview of what will be attempted
-* Any necessary setup steps
-* Step by step instructions
-* Explanations of the what **and** the why behind each step. Try to include:
-  * higher level concepts
-  * best practices
-
-Remember to explain any notation you are using.
-
-```javascript
-/* and use code blocks for any code! */
+REPLACE THE CODE
+```css
+body {
+  margin: 0;
+  padding: 0;
+}
 ```
 
-![screen shots are helpful](img/screenshot.png)
 
-:sunglasses: GitHub markdown files [support emoji notation](http://www.emoji-cheat-sheet.com/)
+## Modals
 
-Here's a resource for [github markdown](https://guides.github.com/features/mastering-markdown/).
 
-### Wrap-Up Discussion Section
 
-(~5-10 minutes)
 
-* lead short discussion
-* answer questions
-* individual teams share results
+## Buttons and effects
+
+Now it's time to spruce up your buttons with cool effects. We'll check out the built-in "raised" and "flat" button styles, as well as the "wave" and "pulse" animations.
+
+## Add in your team members!
+
+Let's circle up a square image for the logo!
+
+
+
+
+## And You Are Done!
+
+
+## Resources:
+

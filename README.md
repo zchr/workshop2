@@ -1,67 +1,106 @@
-# CS52 Workshops
+# Build a Landing Page!  :airplane:
 
-![](http://i.giphy.com/eUh8NINbZf9Ys.gif)
+Welcome! We're going to build a landing page, so basically what we did last week, but better and we'll do it in only **30 minutes**.
 
-Each workshop session will be ~60 minutes on a web technology, tool, framework, or concept. It will consist of both a short presentation as well as a tutorial. The tutorial will be a written online document in the form of a [markdown](https://guides.github.com/features/mastering-markdown/) readme file in a git repo — you can start by forking this very repo. During the tutorial section the class will work in teams of 3 following along with the instructions in the document. The team presenting will answer questions and help the individual teams along.
+🚀
 
-
-## Workshop Overview
-
-* [10-15 Minute Intro Presentation](#presentation-section)
-* [30 Minute Tutorial](#tutorial-section)
-* [5-10 Minute Wrap-Up Discussion](#wrap-up-discussion-section)
-
-## Teams
-
-Teams of ~5 will be formed around dates and a set of potential topics. Your and your team may chose 1 or 2 technologies from the list or may suggest alternative related technologies/topics.
-
-## Setup
-
-If your tutorial requires any lengthy download or install procedures please let the class know at least 2 days in advance.
-
-## Details
-
-
-### Presentation Section
-
-~(10-15 minutes)
-
-* motivate the technology
-* show where the technology fits into the web dev process (dev tool, frontend framework, preprocessor, language etc)
-* show some use cases
-* discuss pros/cons
-
-### Tutorial Section
-
-(~30-40 minutes)
-
-Your written tutorial document will be a walkthrough of building something using the specific web technologies.
-
-It should include:
-
-* Overview of what will be attempted
-* Any necessary setup steps
-* Step by step instructions
-* Explanations of the what **and** the why behind each step. Try to include:
-  * higher level concepts
-  * best practices
-
-Remember to explain any notation you are using.
-
-```javascript
-/* and use code blocks for any code! */
+```html
+<a href="#">
 ```
 
-![screen shots are helpful](img/screenshot.png)
 
-:sunglasses: GitHub markdown files [support emoji notation](http://www.emoji-cheat-sheet.com/)
+## Setting up Materialize
 
-Here's a resource for [github markdown](https://guides.github.com/features/mastering-markdown/).
+🚀 Download stuff
 
-### Wrap-Up Discussion Section
+🚀 Use our template file
 
-(~5-10 minutes)
+🚀 Link the Materialize CSS file or something
 
-* lead short discussion
-* answer questions
-* individual teams share results
+**Things to notice:** 
+
+
+## Navigation bar
+
+Create an awesomer nav bar. Here are some examples - use one of these or check out Materialize for other built-in classes.
+
+* `<nav>` for the navbar (even though it is transparent).
+* `<ul>` unordered lists are often used for nav components, if you do it'll help to get rid of the bullets using `list-style-type: none;`
+* `<footer>` is a good tag to use for... footer things.
+* `<div>`, `<span>`, `<a>`, `<h1>`, `<p>` will all be useful.
+* `<input>`, and `<button>` for any form like elements.
+
+
+
+## Adding in Fonts
+
+Right, in the above you may have noticed that yours was Times New Roman...
+
+🚀You should get some better fonts quick from [Google Fonts](http://fonts.google.com)! 🐎
+
+🚀And you might as well grab some nice icons while you are at it from [FontAwesome](http://fontawesome.io/). Easiest is to just download the whole fontawesome package and including that in your source.
+
+
+![with icons](img/icons.png){: .fancy .tiny}
+
+## Background
+
+🚀Go ahead and add a background in!
+
+I recommend getting rid of margin and padding on body:
+
+
+```css
+body {
+  margin: 0;
+  padding: 0;
+}
+```
+
+and then creating a top level div, lets call it main:
+
+```css
+.cover {
+  background-image: url(img/yourimageyname.jpg);
+  background-size: cover;
+}
+```
+
+## Flex Boxes
+
+
+**Note:**
+
+
+
+## Styling
+
+
+
+## Media query
+
+
+🚀Here's how to start:
+
+```css
+@media only screen and (max-width: 640px) {
+
+}
+```
+
+
+🚀Take some of your row flex boxes and simply convert them to columns.  This works remarkably well for many cases.  The input box and button for instance.
+
+```
+display: none;
+```
+
+🚀Toggle the display property on completely different sections of the site.  You might have a completely different set of elements for the links section for instance.  Toggle one off and the other on.
+
+
+
+## And You Are Done!
+
+
+## Resources:
+

@@ -18,9 +18,12 @@ Also, while we go through the tutorial, you might find it helpful to have <a hre
   <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
 ```
 
-🚀 Let's make "Hi CS52" and the text under that stand out. **(somebody do this)**
+🚀 Let's make "Hi CS52" and the text under that stand out.
 
-**code: need to make it `<h1 class="header center orange-text">Hi CS52!</h1>` and `<h5 class="header col s12 light">Let's spruce up this landing page in 30 minutes.</h5>`
+Find the "Hi CS52!" text. We want `h1` to include `class="header center orange-text`.
+
+Let's also change the text under that. Give `h5` the classes `header col s12 light`, or some combination. Up to you!
+
 
 ## Fix up the logo (somebody do this)
 
@@ -30,11 +33,13 @@ Also, while we go through the tutorial, you might find it helpful to have <a hre
 
 code
 
+
 ## Stylize the icons (Ke got this)
 
 🚀 Have them add style to the button - make button normal, but they need to stylize it plus give it the wave effect, and another can do pulse effect
 
 code
+
 
 ## Modal (2 people do this)
 

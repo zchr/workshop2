@@ -18,14 +18,15 @@ Also, while we go through the tutorial, you might find it helpful to have <a hre
   <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
 ```
 
+🚀 Let's make "Hi CS52" and the text under that stand out. **(somebody do this)**
 
-🚀 Do something with the title and maybe some other text stuff (somebody do this)
+**code: need to make it `<h1 class="header center orange-text">Hi CS52!</h1>` and `<h5 class="header col s12 light">Let's spruce up this landing page in 30 minutes.</h5>`
 
-code
+## Fix up the logo (somebody do this)
 
-## Fix up the images (somebody do this)
+🚀 Grab an image from the internet to replace the text that says "Logo". We're going to make your image into a circle!
 
-🚀 Do something with the images (give them new, square images here, they'll make them circles. maybe it can be a team page with profile shots? or dartmouth related images!)
+**(do tutorial on how to add the code in)**
 
 code
 

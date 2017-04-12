@@ -18,22 +18,38 @@ Also, while we go through the tutorial, you might find it helpful to have <a hre
   <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
 ```
 
+🚀 Let's make "Hi CS52" and the text under that stand out.
 
-🚀 Do something with the title and maybe some other text stuff (somebody do this)
+Find the "Hi CS52!" text. We want `h1` to include `class="header center orange-text"`.
+
+Let's also change the text under that. Give `h5` `class="header col s12 light"`, or some other combination of classes. Up to you!
+
+
+## Fix up the logo (somebody do this)
+
+🚀 Grab an image from the internet to replace the text that says "Logo". We're going to make your image into a circle!
+
+**(do tutorial on how to add the code in)**
 
 code
 
-## Fix up the images (somebody do this)
-
-🚀 Do something with the images (give them new, square images here, they'll make them circles. maybe it can be a team page with profile shots? or dartmouth related images!)
-
-code
 
 ## Stylize the icons (Ke got this)
 
-🚀 Have them add style to the button - make button normal, but they need to stylize it plus give it the wave effect, and another can do pulse effect
+🚀 Add some style to the buttons!
 
-code
+For Button 1: replace `<button>Button 1</button>` with `<a class="btn">Button 1</a>`. This is a standard button. Notice it already looks good and has a cool hover effect.
+
+Let's add a cool click effect. Instead of just `class="btn"`, let's have `class=" btn waves-effect waves-light"`. **Click the button, it's so cool**
+
+For Button 2, replace the old button with a round button. Do the same thing as Button 1, but instead of `btn`, use the class `btn-floating`. You can change the color by adding a class, like `cyan`. Let's try out Materialize's icon package too. Between `<a>` and `</a>`, add in `<i class="material-icons">add</i>`. 
+
+By the end of this, button 2 should look like: 
+```
+<a class="btn-floating waves-effect waves-light cyan"><i class="material-icons">add</i></a>
+```
+
+For Button 3, replace the old button with `<a class="btn btn-floating pulse"><i class="material-icons">cloud</i></a>`. Check out the cool effect!
 
 ## Modal (2 people do this)
 

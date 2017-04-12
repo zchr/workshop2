@@ -65,6 +65,45 @@ Then, to add some buttons to the bottom, add a footer for the modal. Add a new d
 
 Finally, add some classes to the anchor! You must add ```'modal-action'``` and ```'modal-close'``` for the button to work, but the others are up to you - some ideas are ```'waves-effect'``` and ```'btn-flat'``` - feel free to use some of the styling you learned above!
 
+Now, when you click the modal button you'll notice it's not working yet... why not?!
+
+As it turns out, Materialize makes you initialize their Javascript components. That's easy enough - at the bottom of your ```body``` section, add the following code:
+
+```
+<script>
+  // code from:http://materializecss.com/modals.html#!
+  // additional help from: http://stackoverflow.com/questions/41626343/materialized-modal-not-displaying
+  // parallax code from: http://materializecss.com/parallax.html
+  // this initializes all modals so they can be triggered
+  $(document).ready(function() {
+    $('.modal').modal();
+  });
+</script>
+```
+
+This will initialize all modals on the page and let them run.
+
+## Parallax
+
+🚀 Time to add parallax effects! With Materialize this is super easy.
+
+To add parallax, all you have to do is add two parallax containers, one right after ```nav``` and before the ```section-white``` div, and the other right after the ```section-white``` div and before the ```footer```. That's it! Use the following parallax containers, in order:
+
+```
+  <!-- parallax code from: http://materializecss.com/parallax.html -->
+  <div class="parallax-container">
+    <div class='parallax'><img src='img/p1.jpg'></div>
+  </div>
+```
+
+```
+  <!-- parallax code from: http://materializecss.com/parallax.html -->
+  <div class="parallax-container">
+    <div class='parallax'><img src='img/p2.jpg'></div>
+  </div>
+```
+
+It's not working!!! Why?! It's beacause we still have to initialize - add the following code right after your modal initialization in the document ready function: ```$('.parallax').parallax();```
 
 ## And You Are Done!
 

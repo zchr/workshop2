@@ -51,16 +51,25 @@ By the end of this, button 2 should look like:
 
 For Button 3, replace the old button with `<a class="btn btn-floating pulse"><i class="material-icons">cloud</i></a>`. Check out the cool effect!
 
-## Modal (2 people do this)
+## Modal
 
-🚀 Work on a modal!
+🚀 Let's work on a modal. If you notice now, when you click on the modal button nothing happens. Let's fix that!
 
-1. Add the ID of the modal to the href of the download-button, so it reads ```#getStartedModal```
-2. Surround ```<h4>``` and ```<p>``` with a new div with the class name ```<'modal-content'>```
-3. Add a new div with the class ```<'modal-footer'>```
-4. Within the modal-footer div, add an anchor (```<a>```) with the href '#!' and the text 'I'm ready!'
-5. Add some classes to the anchor! You must add ```'modal-action'``` and ```'modal-close'```, but the others are up to you - some ideas are ```'waves-effect'``` and ```'btn-flat'```
+First, style the modal button however you'd like. Use what you learned above!
 
+Now let's set the target for the button. Add the ID of the modal to the href of the download-button, so it reads ```#getStartedModal```
+
+Once that's done, we can start actually constructing the modal. Surround ```<h4>``` and ```<p>``` with a new div with the class name ```'modal-content'``` - this will tell Materialize where the content of the modal lives
+
+Then, to add some buttons to the bottom, add a footer for the modal. Add a new div with the class ```'modal-footer'``` and then within the modal-footer div, add an anchor (```<a>```) with the href '#!' and the text 'I'm ready!'
+
+Finally, add some classes to the anchor! You must add ```'modal-action'``` and ```'modal-close'``` for the button to work, but the others are up to you - some ideas are ```'waves-effect'``` and ```'btn-flat'``` - feel free to use some of the styling you learned above!
 
 
 ## And You Are Done!
+
+At this point, you should have a decent looking webpage that includes some really interesting features that would be difficult to implement from scratch. Here's a checklist for what you should have:
+- [ ] added references to Materialize styling
+- [ ] found and added logo to top of page
+- [ ] styled some buttons
+- [ ] added a modal popover to the modal button

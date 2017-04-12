@@ -25,13 +25,19 @@ Find the "Hi CS52!" text. We want `h1` to include `class="header center orange-t
 Let's also change the text under that. Give `h5` some classes. Let's do `class="header col s12 light"`, or some other combination of classes. Up to you!
 
 
-## Fix up the logo (somebody do this)
+## Fix the logo
 
-🚀 Grab an image from the internet to replace the text that says "Logo". We're going to make your image into a circle!
+🚀 Grab an image from the internet to replace the text that says "LOGO" by adding a image source to the `<img>` tag in `<a href="#"><img>LOGO</img></a>`. (hint: add a `src` field)
 
-**(do tutorial on how to add the code in)**
+Once you have successfully replaced the LOGO text with an image, let's try to make the logo appear more pleasant by giving the logo image a circular frame. We can achieve this by adding `circle` class to the `img` tag.
 
-code
+Your logo should now appear something like this:
+![alt text](./img/logo_sc1.png)
+
+The logo looks too crammed in the corner right? Let's center this logo at the top. The class `brand-logo` will center itself on medium and down the screens but you can also add `center` class if you want the logo to be always centered. Add these two classes to the `<a>` tag from above.
+
+Your logo should appear something like this:
+![alt text](./img/logo_sc2.png)
 
 
 ## Stylize the icons (Ke got this)
@@ -42,7 +48,7 @@ For Button 1: replace `<button>Button 1</button>` with `<a class="btn">Button 1<
 
 Let's add a cool click effect. Instead of just `class="btn"`, make it `class="btn waves-effect waves-light"`. Click the button, it's so cool!
 
-For Button 2, replace the old button with a round button. Do the same thing as Button 1, but instead of `btn`, use the class `btn-floating`. You can change the color by adding a class, like `cyan`. Let's try out Materialize's icon package too. Between `<a>` and `</a>`, add in `<i class="material-icons">add</i>`. 
+For Button 2, replace the old button with a round button. Do the same thing as Button 1, but instead of `btn`, use the class `btn-floating`. You can change the color by adding a class, like `cyan`. Let's try out Materialize's icon package too. Between `<a>` and `</a>`, add in `<i class="material-icons">add</i>`.
 
 By the end of this, button 2 should look like:
 ```
@@ -125,7 +131,7 @@ At this point, you should have a decent looking webpage that includes some reall
 * Explanations of the what **and** the why behind each step. Try to include:
   * higher level concepts
   * best practices
-  
+
 End the tutorial with a "what you should have at this point" section which includes a **short** listing of features. This is the minimal set of things you think they should accomplished/learned during the course of the tutorial and will be used in grading. Format this as a checklist:
 
 - [x] created navbar

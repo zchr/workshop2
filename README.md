@@ -73,7 +73,6 @@ As it turns out, Materialize makes you initialize their Javascript components. T
 <script>
   // code from:http://materializecss.com/modals.html#!
   // additional help from: http://stackoverflow.com/questions/41626343/materialized-modal-not-displaying
-  // parallax code from: http://materializecss.com/parallax.html
   // this initializes all modals so they can be triggered
   $(document).ready(function() {
     $('.modal').modal();
@@ -103,7 +102,11 @@ To add parallax, all you have to do is add two parallax containers, one right af
   </div>
 ```
 
-It's not working!!! Why?! It's beacause we still have to initialize - add the following code right after your modal initialization in the document ready function: ```$('.parallax').parallax();```
+It's not working!!! Why?! It's beacause we still have to initialize - add the following code right after your modal initialization in the document ready function:
+```
+  // parallax code from: http://materializecss.com/parallax.html
+  $('.parallax').parallax();
+```
 
 ## And You Are Done!
 
@@ -112,3 +115,4 @@ At this point, you should have a decent looking webpage that includes some reall
 - [ ] found and added logo to top of page
 - [ ] styled some buttons
 - [ ] added a modal popover to the modal button
+- [ ] added simple parallax sections

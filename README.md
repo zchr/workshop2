@@ -20,9 +20,9 @@ Also, while we go through the tutorial, you might find it helpful to have <a hre
 
 🚀 Let's make "Hi CS52" and the text under that stand out.
 
-Find the "Hi CS52!" text. We want `h1` to include `class="header center orange-text`.
+Find the "Hi CS52!" text. We want `h1` to include `class="header center orange-text"`.
 
-Let's also change the text under that. Give `h5` the classes `header col s12 light`, or some combination. Up to you!
+Let's also change the text under that. Give `h5` `class="header col s12 light"`, or some other combination of classes. Up to you!
 
 
 ## Fix up the logo (somebody do this)
@@ -36,9 +36,14 @@ code
 
 ## Stylize the icons (Ke got this)
 
-🚀 Have them add style to the button - make button normal, but they need to stylize it plus give it the wave effect, and another can do pulse effect
+🚀 Add some style to the buttons!
 
-code
+For Button 1,
+
+For Button 2,
+
+For Button 3,
+
 
 
 ## Modal (2 people do this)

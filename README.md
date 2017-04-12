@@ -55,11 +55,13 @@ For Button 3, replace the old button with `<a class="btn btn-floating pulse"><i 
 
 🚀 Let's work on a modal. If you notice now, when you click on the modal button nothing happens. Let's fix that!
 
-First, let's set the target for the button. Add the ID of the modal to the href of the download-button, so it reads ```#getStartedModal```
+First, style the modal button however you'd like. Use what you learned above!
 
-Once that's done, we can start actually constructing the modal. Surround ```<h4>``` and ```<p>``` with a new div with the class name ```<'modal-content'>``` - this will tell Materialize where the content of the modal lives
+Now let's set the target for the button. Add the ID of the modal to the href of the download-button, so it reads ```#getStartedModal```
 
-Then, to add some buttons to the bottom, add a footer for the modal. Add a new div with the class ```<'modal-footer'>``` and then within the modal-footer div, add an anchor (```<a>```) with the href '#!' and the text 'I'm ready!'
+Once that's done, we can start actually constructing the modal. Surround ```<h4>``` and ```<p>``` with a new div with the class name ```'modal-content'``` - this will tell Materialize where the content of the modal lives
+
+Then, to add some buttons to the bottom, add a footer for the modal. Add a new div with the class ```'modal-footer'``` and then within the modal-footer div, add an anchor (```<a>```) with the href '#!' and the text 'I'm ready!'
 
 Finally, add some classes to the anchor! You must add ```'modal-action'``` and ```'modal-close'``` for the button to work, but the others are up to you - some ideas are ```'waves-effect'``` and ```'btn-flat'``` - feel free to use some of the styling you learned above!
 

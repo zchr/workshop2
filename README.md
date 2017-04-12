@@ -55,9 +55,9 @@ For Button 3, replace the old button with `<a class="btn btn-floating pulse"><i 
 
 🚀 Let's work on a modal. If you notice now, when you click on the modal button nothing happens. Let's fix that!
 
-First, style the modal button however you'd like. Use what you learned above!
+First, make sure you've replaced Button 3 with the anchor tag above.
 
-Now let's set the target for the button. Add the ID of the modal to the href of the download-button, so it reads ```#getStartedModal```
+Now let's set the target for the anchor. Add the ID of the modal to the href of the modal anchor, so it reads ```#getStartedModal```
 
 Once that's done, we can start actually constructing the modal. Surround ```<h4>``` and ```<p>``` with a new div with the class name ```'modal-content'``` - this will tell Materialize where the content of the modal lives
 

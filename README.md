@@ -22,7 +22,7 @@ Also, while we go through the tutorial, you might find it helpful to have <a hre
 
 Find the "Hi CS52!" text. We want `h1` to include `class="header center orange-text"`.
 
-Let's also change the text under that. Give `h5` `class="header col s12 light"`, or some other combination of classes. Up to you!
+Let's also change the text under that. Give `h5` some classes. Let's do `class="header col s12 light"`, or some other combination of classes. Up to you!
 
 
 ## Fix up the logo (somebody do this)
@@ -40,7 +40,7 @@ code
 
 For Button 1: replace `<button>Button 1</button>` with `<a class="btn">Button 1</a>`. This is a standard button. Notice it already looks good and has a cool hover effect.
 
-Let's add a cool click effect. Instead of just `class="btn"`, let's have `class=" btn waves-effect waves-light"`. **Click the button, it's so cool**
+Let's add a cool click effect. Instead of just `class="btn"`, make it `class="btn waves-effect waves-light"`. Click the button, it's so cool!
 
 For Button 2, replace the old button with a round button. Do the same thing as Button 1, but instead of `btn`, use the class `btn-floating`. You can change the color by adding a class, like `cyan`. Let's try out Materialize's icon package too. Between `<a>` and `</a>`, add in `<i class="material-icons">add</i>`. 
 

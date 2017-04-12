@@ -42,9 +42,9 @@ For Button 1: replace `<button>Button 1</button>` with `<a class="btn">Button 1<
 
 Let's add a cool click effect. Instead of just `class="btn"`, make it `class="btn waves-effect waves-light"`. Click the button, it's so cool!
 
-For Button 2, replace the old button with a round button. Do the same thing as Button 1, but instead of `btn`, use the class `btn-floating`. You can change the color by adding a class, like `cyan`. Let's try out Materialize's icon package too. Between `<a>` and `</a>`, add in `<i class="material-icons">add</i>`. 
+For Button 2, replace the old button with a round button. Do the same thing as Button 1, but instead of `btn`, use the class `btn-floating`. You can change the color by adding a class, like `cyan`. Let's try out Materialize's icon package too. Between `<a>` and `</a>`, add in `<i class="material-icons">add</i>`.
 
-By the end of this, button 2 should look like: 
+By the end of this, button 2 should look like:
 ```
 <a class="btn-floating waves-effect waves-light cyan"><i class="material-icons">add</i></a>
 ```
@@ -53,14 +53,14 @@ For Button 3, replace the old button with `<a class="btn btn-floating pulse"><i 
 
 ## Modal (2 people do this)
 
-🚀 Work on a modal or a collection? Or a carousel, unless that's too hard
+🚀 Work on a modal!
 
-code
-
+1. Add the ID of the modal to the href of the download-button, so it reads ```#getStartedModal```
+2. Surround ```<h4>``` and ```<p>``` with a new div with the class name ```<'modal-content'>```
+3. Add a new div with the class ```<'modal-footer'>```
+4. Within the modal-footer div, add an anchor (```<a>```) with the href '#!' and the text 'I'm ready!'
+5. Add some classes to the anchor! You must add ```'modal-action'``` and ```'modal-close'```, but the others are up to you - some ideas are ```'waves-effect'``` and ```'btn-flat'```
 
 
 
 ## And You Are Done!
-
-
-

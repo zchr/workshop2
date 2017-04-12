@@ -27,9 +27,9 @@ Let's also change the text under that. Give `h5` some classes. Let's do `class="
 
 ## Fix the logo
 
-🚀 Grab an image from the internet to replace the text that says "LOGO" by adding a image source to the `<img>` tag in `<a href="#"><img>LOGO</img></a>`. (hint: add a `src` field)
+🚀 Grab an image from the internet and replace the text that says "LOGO" by adding a image source to the `<img>` tag in `<a href="#"><img>LOGO</img></a>`. (hint: add a `src` field)
 
-Once you have successfully replaced the LOGO text with an image, let's try to make the logo appear more pleasant by giving the logo image a circular frame. We can achieve this by adding `circle` class to the `img` tag.
+Once you have successfully replaced the LOGO text with an image, let's try to make the logo appear more pleasant by giving the logo image a circular frame. We can achieve this by adding a `circle` class to the `img` tag.
 
 Your logo should now appear something like this:
 ![alt text](./img/logo_sc1.png)

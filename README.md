@@ -42,7 +42,20 @@ For Button 1: replace `<button>Button 1</button>` with `<a class="btn">Button 1<
 
 Let's add a cool click effect. Instead of just `class="btn"`, make it `class="btn waves-effect waves-light"`. Click the button, it's so cool!
 
-For Button 2, replace the old button with a round button. Do the same thing as Button 1, but instead of `btn`, use the class `btn-floating`. You can change the color by adding a class, like `cyan`. Let's try out Materialize's icon package too. Between `<a>` and `</a>`, add in `<i class="material-icons">add</i>`.
+* Overview of what will be attempted
+* Any necessary setup steps
+* Step by step instructions
+* Explanations of the what **and** the why behind each step. Try to include:
+  * higher level concepts
+  * best practices
+  
+End the tutorial with a "what you should have at this point" section which includes a **short** listing of features. This is the minimal set of things you think they should accomplished/learned during the course of the tutorial and will be used in grading. Format this as a checklist:
+
+- [x] created navbar
+- [ ] styled body
+- [ ] clickable buttons
+
+For Button 2, replace the old button with a round button. Do the same thing as Button 1, but instead of `btn`, use the class `btn-floating`. You can change the color by adding a class, like `cyan`. Let's try out Materialize's icon package too. Between `<a>` and `</a>`, add in `<i class="material-icons">add</i>`. 
 
 By the end of this, button 2 should look like:
 ```

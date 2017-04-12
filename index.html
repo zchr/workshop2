@@ -20,20 +20,57 @@
 </head>
 <body>
 
-  <!-- AT THE END, CAN GIVE OPTIONS TO CHANGE NAV BAR BUT NOT NECESSARY -->
-  <nav class="light-blue lighten-1" role="navigation">
-    <div class="nav-wrapper container"><a id="logo-container" href="#" class="brand-logo">Logo</a>
+<!-- Customize a sweet Materialize Navbar -->
+  <nav>
+    <div class="nav-wrapper light-blue lighten-1">
+      <a href="#" class="center brand-logo"><img class="circle" src="img/logo.png"/></a>
       <ul class="right hide-on-med-and-down">
-        <li><a href="#">Home</a></li>
+        <li><a href="#">Schedule</a></li>
+        <li><a href="#">Grades</a></li>
+        <li><a class="dropdown-button" href="#" data-activates="dropdown">Assignments<i class="material-icons right">arrow_drop_down</i></a></li>
       </ul>
-
-      <ul id="nav-mobile" class="side-nav">
-        <li><a href="#">Home</a></li>
-      </ul>
-      <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
     </div>
   </nav>
 
+  <!-- Customize Dropdown Structure -->
+  <ul id="dropdown" class="dropdown-content">
+    <li><a href="#">Lab1</a></li>
+    <li class="divider"></li>
+    <li><a href="#">Lab2</a></li>
+    <li class="divider"></li>
+    <li><a href="#">SA1</a></li>
+    <li class="divider"></li>
+    <li><a href="#">SA2</a></li>
+  </ul>
+
+  <div class="section no-pad-bot" id="index-banner">
+    <div class="container">
+      <br><br>
+      <h1>Hi CS52!</h1>
+      <div class="row center">
+        <h5>Let's spruce up this landing page in 30 minutes.</h5>
+      </div>
+
+      <div class="row center">
+        <!-- get example info from: http://materializecss.com/modals.html -->
+        <!-- ORIGINAL: -->
+        <a href="#" id="download-button" class="btn-large orange">Cool Modal</a>
+        <!-- code adapted from: http://materializecss.com/modals.html -->
+        <!-- CHANGE TO:
+        <a href='#getStartedModal' class='btn-large waves-effect waves-light orange'>Get Started</a>
+        <div id='getStartedModal' class='modal'>
+          <div class='modal-content'>
+            <h4>Get Started with Materialize!</h4>
+            <p>Learn how to use Materialize.</p>
+          </div>
+          <div class='modal-footer'>
+            <a href='#!' class='modal-action modal-close waves-effect waves-purple btn-flat'>I'm ready!</a>
+          </div>
+        </div>
+        -->
+
+      </div>
+      <br><br>
 
   <div class='section-white'>
     <br />
@@ -125,6 +162,17 @@
   <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
   <script src="js/materialize.js"></script>
   <script src="js/init.js"></script>
-
+  <!-- ADD THIS TOO TO MAKE MODALS WORK -->
+  <script>
+    // code from:http://materializecss.com/modals.html#!
+    // additional help from: http://stackoverflow.com/questions/41626343/materialized-modal-not-displaying
+    // parallax code from: http://materializecss.com/parallax.html
+    // this initializes all modals so they can be triggered
+    $(document).ready(function() {
+      $('.modal').modal();
+      $(".dropdown-button").dropdown({ hover: false });
+      $('.parallax').parallax();
+    });
+  </script>
   </body>
 </html>

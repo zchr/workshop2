@@ -20,7 +20,7 @@
 </head>
 <body>
 
-<!-- AT THE END, CAN GIVE OPTIONS TO CHANGE NAV BAR BUT NOT NECESSARY -->
+  <!-- AT THE END, CAN GIVE OPTIONS TO CHANGE NAV BAR BUT NOT NECESSARY -->
   <nav class="light-blue lighten-1" role="navigation">
     <div class="nav-wrapper container"><a id="logo-container" href="#" class="brand-logo">Logo</a>
       <ul class="right hide-on-med-and-down">
@@ -34,21 +34,15 @@
     </div>
   </nav>
 
-  <div class="section no-pad-bot" id="index-banner">
-    <div class="container">
-      <br><br>
-      <h1>Hi CS52!</h1>
-      <div class="row center">
-        <h5>Let's spruce up this landing page in 30 minutes.</h5>
-      </div>
 
-      <div class="row center">
-
-
-      </div>
-      <br><br>
-
+  <div class='section-white'>
+    <br />
+    <!-- center align from: http://materializecss.com/helpers.html -->
+    <h1 class='center-align'>Hi CS52!</h1>
+    <div class="row center">
+      <h5>Let's spruce up this landing page in 30 minutes.</h5>
     </div>
+    <br /><br />
   </div>
 
   <div class="container">
@@ -93,14 +87,13 @@
     </div>
   </div>
 
+
   <footer class="page-footer orange">
     <div class="container">
       <div class="row">
         <div class="col l6 s12">
           <h5 class="white-text">Nice work!</h5>
           <p class="grey-text text-lighten-4">We hope you enjoyed checking out how to make a landing page better, faster.</p>
-
-
         </div>
         <div class="col l3 s12">
           <h5 class="white-text">Settings</h5>
@@ -136,9 +129,11 @@
   <script>
     // code from:http://materializecss.com/modals.html#!
     // additional help from: http://stackoverflow.com/questions/41626343/materialized-modal-not-displaying
+    // parallax code from: http://materializecss.com/parallax.html
     // this initializes all modals so they can be triggered
     $(document).ready(function() {
       $('.modal').modal();
+      $('.parallax').parallax();
     });
   </script>
   </body>

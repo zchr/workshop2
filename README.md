@@ -118,7 +118,7 @@ At this point, you should have a decent looking webpage that includes some reall
 - [ ] added simple parallax sections
 
 
-##Credits
+## Credits
 
 Utilized extensively for tutorial code and for the base template: http://materializecss.com/
 

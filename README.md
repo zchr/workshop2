@@ -45,6 +45,12 @@ It should include:
 * Explanations of the what **and** the why behind each step. Try to include:
   * higher level concepts
   * best practices
+  
+End the tutorial with a "what you should have at this point" section which includes a **short** listing of features. This is the minimal set of things you think they should accomplished/learned during the course of the tutorial and will be used in grading. Format this as a checklist:
+
+- [x] created navbar
+- [ ] styled body
+- [ ] clickable buttons
 
 Remember to explain any notation you are using.
 

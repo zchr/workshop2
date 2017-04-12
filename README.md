@@ -38,13 +38,18 @@ code
 
 🚀 Add some style to the buttons!
 
-For Button 1,
+For Button 1: replace `<button>Button 1</button>` with `<a class="btn">Button 1</a>`. This is a standard button. Notice it already looks good and has a cool hover effect.
 
-For Button 2,
+Let's add a cool click effect. Instead of just `class="btn"`, let's have `class=" btn waves-effect waves-light"`. **Click the button, it's so cool**
 
-For Button 3,
+For Button 2, replace the old button with a round button. Do the same thing as Button 1, but instead of `btn`, use the class `btn-floating`. You can change the color by adding a class, like `cyan`. Let's try out Materialize's icon package too. Between `<a>` and `</a>`, add in `<i class="material-icons">add</i>`. 
 
+By the end of this, button 2 should look like: 
+```
+<a class="btn-floating waves-effect waves-light cyan"><i class="material-icons">add</i></a>
+```
 
+For Button 3, replace the old button with `<a class="btn btn-floating pulse"><i class="material-icons">cloud</i></a>`. Check out the cool effect!
 
 ## Modal (2 people do this)
 

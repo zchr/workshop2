@@ -116,3 +116,9 @@ At this point, you should have a decent looking webpage that includes some reall
 - [ ] styled some buttons
 - [ ] added a modal popover to the modal button
 - [ ] added simple parallax sections
+
+
+##Credits
+
+Utilized extensively for tutorial code and for the base template: http://materializecss.com/
+Photos from: https://unsplash.com

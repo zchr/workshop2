@@ -41,21 +41,38 @@ The dropdown:
 
 🚀 Now, to make the actual navbar, first locate the main `<div>` inside the `<nav>` tag and add the following class to it: `nav-wrapper`. This will apply a specific `materialize` style to the `<div>`. You can change the color by adding to the class: `light-blue`. You can cuztomize the colors in the `materialize.css`file. (What happens if you include: `lighten-3`?).
 
-🚀 Grab an image from the internet and replace the text that says "LOGO" by adding a image source to the `<img>` tag in `<a href="#"><img>LOGO</img></a>`. (hint: add a `src` field)
+🚀 Grab an image from the internet and replace the text that says "LOGO" by adding a image source to the `<img>` tag in `<a href="#"><img>LOGO</img></a>`. If you want, you can use our logo in `img/logo.png` (hint: add a `src` field)
 
 Once you have successfully replaced the LOGO text with an image, let's try to make the logo appear more pleasant by giving the logo image a circular frame. We can achieve this by adding a `circle` class to the `img` tag.
 
 Your logo should now appear something like this:
+
 ![alt text](./img/logo_sc1.png)
 
-The logo looks too crammed in the corner right? Let's center this logo at the top. The class `brand-logo` will center itself on medium and down the screens but you can also add `center` class if you want the logo to be always centered. Add these two classes to the `<a>` tag from above.
+Is your logo HUGE? The circle class doesn't have resizing in `Materialize`. We need to overwrite this, so go to the `css/style.css` file and add this in:
+
+```
+circle {
+  height: 64px;
+  width: auto;
+}
+```
+
+Now your logo looks too crammed in the corner right? Let's center this logo at the top by adding to the `<a>` tag. The class `brand-logo` will center itself on medium and down the screens but you can also add `center` class if you want the logo to be always centered. 
 
 Your logo should appear something like this:
+
 ![alt text](./img/logo_sc2.png)
 
-🚀 Now, let's create the right menu items and dropdown by using an unordered list. In the `<ul>` tag add to the class: `right hide-on-med-and-down` which will create a right oriented menu from the `li` tags. Include as many `li` tags as you wish with `anchor` inner tags with `#` as `href`. We will transform the last `li` item by adding to the `a` inner tag. Add `dropdown-button` to the `<a>` tag's class to indicate that it will be a dropdown button. For `data-activates` on the `<a>` tag (after class and href)set `dropdown` as a value. This will identify the dropdown content defined below. On the inner `<i>` tag set class to `material-icons right` to create the little arrow icon. You can experiment with this.
+🚀 Now, let's create the right menu items and dropdown by using an unordered list. In the `<ul>` tag add the class: `right hide-on-med-and-down` which will create a right oriented menu from the `li` tags. 
 
-🚀 The navbar looks good, but there is no content defined for the dropdown. Let's fix that! For the `ul` tag set the id to `dropdown` to connect the dropdown button from the menu. Set the class to `dropdown-content` to define the `ul` element as dropdown content. Populate the inner list items with anchor tags as content. To create the horizontal dividers, you can transform `li` elements by setting their class to `divider`. Finally add `$(".dropdown-button").dropdown({ hover: false });` to the `document.ready` function in the `<script>` tag. This will connect the dropdown with the dropdown content. You're navbar should be in good shape now!
+On the Assignments item, add `dropdown-button` to the `<a>` tag's class to indicate that it will be a dropdown button. Also add the attribute `data-activates="dropdown"`. This will identify the dropdown content defined below - the `dropdown` is like an `id`. Lastly, on the inner `<i>` tag set class to `material-icons right` to create the little arrow icon. You can experiment with this.
+
+The navbar looks good, but there is no content defined for the dropdown. Let's fix that! 
+
+For the `ul` tag (in the section after `</nav>`) set the id to `dropdown` to connect the dropdown button from the menu. Also set the class to `dropdown-content` to define the `ul` element as dropdown content. To create the horizontal dividers, you can transform `li` elements by setting their class to `divider`.
+
+Finally add `$(".dropdown-button").dropdown({ hover: false });` to the `document.ready` function in the ```init.js``` file in the js folder. This will connect the dropdown with the dropdown content. Your navbar should be in good shape now!
 
 
 ## Stylize the icons
@@ -91,7 +108,7 @@ Finally, add some classes to the anchor! You must add ```'modal-action'``` and `
 
 Now, when you click the modal button you'll notice it's not working yet... why not?!
 
-As it turns out, Materialize makes you initialize their Javascript components. That's easy enough - at the bottom of your ```body``` section, there's a ```document.ready``` script - add this code to it for the modal to run:
+As it turns out, Materialize makes you initialize their Javascript components. That's easy enough - in the ```init.js``` file, add this code below the drop down initializer:
 
 ```
   // code from:http://materializecss.com/modals.html#!
@@ -122,7 +139,7 @@ To add parallax, all you have to do is add two parallax containers, one right af
   </div>
 ```
 
-It's not working!!! Why?! It's beacause we still have to initialize - add the following code right after your modal initialization in the document ready function:
+It's not working!!! Why?! It's beacause we still have to initialize - add the following code right after your modal initialization in the ```init.js``` file:
 ```
   // parallax code from: http://materializecss.com/parallax.html
   $('.parallax').parallax();

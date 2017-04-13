@@ -151,12 +151,12 @@ It's not working!!! Why?! It's beacause we still have to initialize - add the fo
 ## And You Are Done!
 
 At this point, you should have a decent looking webpage that includes some really interesting features that would be difficult to implement from scratch. Here's a checklist for what you should have:
-- [ ] added references to Materialize styling
-- [ ] added logo to top of page
-- [ ] nav bar drop-down section
-- [ ] styled some buttons
-- [ ] added a modal popover to the modal button
-- [ ] added simple parallax sections
+- [x] added references to Materialize styling
+- [x] added logo to top of page
+- [x] nav bar drop-down section
+- [x] styled some buttons
+- [x] added a modal popover to the modal button
+- [x] added simple parallax sections
 
 ## Credits
 

@@ -40,7 +40,7 @@ Your logo should appear something like this:
 ![alt text](./img/logo_sc2.png)
 
 
-## Stylize the icons (Ke got this)
+## Stylize the icons
 
 🚀 Add some style to the buttons!
 

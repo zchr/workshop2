@@ -14,8 +14,12 @@ Also, while we go through the tutorial, you might find it helpful to have `http:
 
 ```
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
-  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.1/css/materialize.min.css">
+```
+
+And then add this line at the bottom of `body` right before the jQuery script:
+```
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.1/js/materialize.min.js"></script>
 ```
 
 🚀 Let's make "Hi CS52" and the text under that stand out.

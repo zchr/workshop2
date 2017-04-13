@@ -28,12 +28,14 @@ Let's also change the text under that. Give `h5` some classes. Let's do `class="
 ## Navigation bar
 
 We are going to build a sweet navbar which you will customize. You'll have a custom Logo and a cool dropdown, demonstrated below:
+
 ![Navbar](img/navbar.png)
 
 The dropdown:
-![Navbar](img/navbar.png)
 
-🚀 Now, to make the navbar, first locate the main `<div>` inside the `<nav>` tag and add the following class to it: `nav-wrapper`. This will apply a specific `materialize` style to the `<div>`. You can change the color by adding to the class: `light-blue`. You can cuztomize the colors in the `materialize.css`file. (What happens if you include: `lighten-3`?).
+![Navbar](img/dropdown.png)
+
+🚀 Now, to make the actual navbar, first locate the main `<div>` inside the `<nav>` tag and add the following class to it: `nav-wrapper`. This will apply a specific `materialize` style to the `<div>`. You can change the color by adding to the class: `light-blue`. You can cuztomize the colors in the `materialize.css`file. (What happens if you include: `lighten-3`?).
 
 🚀 Grab an image from the internet and replace the text that says "LOGO" by adding a image source to the `<img>` tag in `<a href="#"><img>LOGO</img></a>`. (hint: add a `src` field)
 

@@ -4,4 +4,9 @@
 // this initializes all modals so they can be triggered
 $(document).ready(function() {
   //initializing code goes here!
+  $(".dropdown-button").dropdown({ hover: false });
+  $('.modal').modal();
+
+  // parallax code from: http://materializecss.com/parallax.html
+  $('.parallax').parallax();
 });

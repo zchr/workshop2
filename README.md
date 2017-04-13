@@ -132,26 +132,11 @@ It's not working!!! Why?! It's beacause we still have to initialize - add the fo
 
 At this point, you should have a decent looking webpage that includes some really interesting features that would be difficult to implement from scratch. Here's a checklist for what you should have:
 - [ ] added references to Materialize styling
-- [ ] found and added logo to top of page
+- [ ] added logo to top of page
+- [ ] nav bar drop-down section
 - [ ] styled some buttons
 - [ ] added a modal popover to the modal button
 - [ ] added simple parallax sections
-
-
-
-* Overview of what will be attempted
-* Any necessary setup steps
-* Step by step instructions
-* Explanations of the what **and** the why behind each step. Try to include:
-  * higher level concepts
-  * best practices
-
-End the tutorial with a "what you should have at this point" section which includes a **short** listing of features. This is the minimal set of things you think they should accomplished/learned during the course of the tutorial and will be used in grading. Format this as a checklist:
-
-- [x] created navbar
-- [ ] styled body
-- [ ] clickable buttons
-
 
 ## Credits
 

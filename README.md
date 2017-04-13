@@ -48,7 +48,15 @@ Once you have successfully replaced the LOGO text with an image, let's try to ma
 Your logo should now appear something like this:
 ![alt text](./img/logo_sc1.png)
 
-The logo looks too crammed in the corner right? Let's center this logo at the top. The class `brand-logo` will center itself on medium and down the screens but you can also add `center` class if you want the logo to be always centered. Add these two classes to the `<a>` tag from above.
+Is your logo HUGE? The circle class doesn't have resizing in `Materialize`. We need to overwrite this, so go to the `css/style.css` file and add this in:
+
+```
+circle {
+  width: 64px;
+}
+```
+
+Now your logo looks too crammed in the corner right? Let's center this logo at the top by adding to the `<a>` tag. The class `brand-logo` will center itself on medium and down the screens but you can also add `center` class if you want the logo to be always centered. 
 
 Your logo should appear something like this:
 ![alt text](./img/logo_sc2.png)

@@ -4,7 +4,7 @@ Welcome! We're going to build a landing page, so basically what we did last week
 
 We've given you an HTML file that's adapted from one of Materialize's starter template. You'll build a nice custom navbar with the help of the template code provided. We also have a nicely formatted section in the middle for you for some additional customizable content.
 
-🚀 What do you need to add? Better title styles, images, and button effects! Plus, a modal **(OR SOMETHING ELSE IDK)**
+🚀 What do you need to add? Better title styles, images, and button effects! Plus, a modal and parallax.
 
 Also, while we go through the tutorial, you might find it helpful to have `http://materializecss.com/` open so you can check out cool features, classes, and effects yourself. There's plenty of cool stuff that we won't cover that will make YOUR website much cooler.
 
@@ -132,26 +132,11 @@ It's not working!!! Why?! It's beacause we still have to initialize - add the fo
 
 At this point, you should have a decent looking webpage that includes some really interesting features that would be difficult to implement from scratch. Here's a checklist for what you should have:
 - [ ] added references to Materialize styling
-- [ ] found and added logo to top of page
+- [ ] added logo to top of page
+- [ ] nav bar drop-down section
 - [ ] styled some buttons
 - [ ] added a modal popover to the modal button
 - [ ] added simple parallax sections
-
-
-
-* Overview of what will be attempted
-* Any necessary setup steps
-* Step by step instructions
-* Explanations of the what **and** the why behind each step. Try to include:
-  * higher level concepts
-  * best practices
-
-End the tutorial with a "what you should have at this point" section which includes a **short** listing of features. This is the minimal set of things you think they should accomplished/learned during the course of the tutorial and will be used in grading. Format this as a checklist:
-
-- [x] created navbar
-- [ ] styled body
-- [ ] clickable buttons
-
 
 ## Credits
 

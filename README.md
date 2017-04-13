@@ -66,7 +66,7 @@ Your logo should appear something like this:
 
 🚀 The navbar looks good, but there is no content defined for the dropdown. Let's fix that! For the `ul` tag (in the section after `</nav>`) set the id to `dropdown` to connect the dropdown button from the menu. Set the class to `dropdown-content` to define the `ul` element as dropdown content. Populate the inner list items with anchor tags as content. To create the horizontal dividers, you can transform `li` elements by setting their class to `divider`.
 
-Finally add `$(".dropdown-button").dropdown({ hover: false });` to the `document.ready` function in the ```init.js``` file in the js folder. This will connect the dropdown with the dropdown content. You're navbar should be in good shape now!
+Finally add `$(".dropdown-button").dropdown({ hover: false });` to the `document.ready` function in the ```init.js``` file in the js folder. This will connect the dropdown with the dropdown content. Your navbar should be in good shape now!
 
 
 ## Stylize the icons

@@ -21,7 +21,8 @@ And then add this line at the bottom of `body` right **AFTER** the jQuery script
 ```
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.1/js/materialize.min.js"></script>
 ```
-🚀 If it's not after the jQuery script, you'll get errors with the CDN script!
+
+If it's not after the jQuery script, you'll get errors with the CDN script!
 
 
 🚀 Let's make "Hi CS52" and the text under that stand out.

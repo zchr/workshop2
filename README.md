@@ -2,11 +2,11 @@
 
 Welcome! We're going to build a landing page, so basically what we did last week but better and we'll do it in only **30 minutes**. Thanks, Materialize!
 
-We've given you an HTML file that's adapted from one of Materialize's starter template. It's complete with nice-looking navigation and footer (you've already seen how frameworks make it easy to create those, from the last workshop). We also have a nicely formatted section in the middle for you.
+We've given you an HTML file that's adapted from one of Materialize's starter template. You'll build a nice custom navbar with the help of the template code provided. We also have a nicely formatted section in the middle for you for some additional customizable content. 
 
 🚀 What do you need to add? Better title styles, images, and button effects! Plus, a modal **(OR SOMETHING ELSE IDK)**
 
-Also, while we go through the tutorial, you might find it helpful to have <a href="http://materializecss.com/">Materialize</a> open so you can check out cool features, classes, and effects yourself. There's plenty of cool stuff that we won't cover that will make YOUR website much cooler.
+Also, while we go through the tutorial, you might find it helpful to have `http://materializecss.com/` open so you can check out cool features, classes, and effects yourself. There's plenty of cool stuff that we won't cover that will make YOUR website much cooler.
 
 ## Basics
 

@@ -17,10 +17,12 @@ Also, while we go through the tutorial, you might find it helpful to have `http:
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.1/css/materialize.min.css">
 ```
 
-And then add this line at the bottom of `body` right before the jQuery script:
+And then add this line at the bottom of `body` right **AFTER** the jQuery script:
 ```
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.1/js/materialize.min.js"></script>
 ```
+🚀 If it's not after the jQuery script, you'll get errors with the CDN script!
+
 
 🚀 Let's make "Hi CS52" and the text under that stand out.
 

@@ -64,7 +64,9 @@ Your logo should appear something like this:
 
 🚀 Now, let's create the right menu items and dropdown by using an unordered list. In the `<ul>` tag add to the class: `right hide-on-med-and-down` which will create a right oriented menu from the `li` tags. Include as many `li` tags as you wish with `anchor` inner tags with `#` as `href`. We will transform the last `li` item by adding to the `a` inner tag. Add `dropdown-button` to the `<a>` tag's class to indicate that it will be a dropdown button. For `data-activates` on the `<a>` tag (after class and href) set `dropdown` as a value. This will identify the dropdown content defined below. On the inner `<i>` tag set class to `material-icons right` to create the little arrow icon. You can experiment with this.
 
-🚀 The navbar looks good, but there is no content defined for the dropdown. Let's fix that! For the `ul` tag (in the section after `</nav>`) set the id to `dropdown` to connect the dropdown button from the menu. Set the class to `dropdown-content` to define the `ul` element as dropdown content. Populate the inner list items with anchor tags as content. To create the horizontal dividers, you can transform `li` elements by setting their class to `divider`. Finally add `$(".dropdown-button").dropdown({ hover: false });` to the `document.ready` function in the `<script>` tag. This will connect the dropdown with the dropdown content. You're navbar should be in good shape now!
+🚀 The navbar looks good, but there is no content defined for the dropdown. Let's fix that! For the `ul` tag (in the section after `</nav>`) set the id to `dropdown` to connect the dropdown button from the menu. Set the class to `dropdown-content` to define the `ul` element as dropdown content. Populate the inner list items with anchor tags as content. To create the horizontal dividers, you can transform `li` elements by setting their class to `divider`.
+
+Finally add `$(".dropdown-button").dropdown({ hover: false });` to the `document.ready` function in the ```init.js``` file in the js folder. This will connect the dropdown with the dropdown content. You're navbar should be in good shape now!
 
 
 ## Stylize the icons
@@ -100,7 +102,7 @@ Finally, add some classes to the anchor! You must add ```'modal-action'``` and `
 
 Now, when you click the modal button you'll notice it's not working yet... why not?!
 
-As it turns out, Materialize makes you initialize their Javascript components. That's easy enough - at the bottom of your ```body``` section, there's a ```document.ready``` script - add this code to it for the modal to run:
+As it turns out, Materialize makes you initialize their Javascript components. That's easy enough - in the ```init.js``` file, add this code below the drop down initializer:
 
 ```
   // code from:http://materializecss.com/modals.html#!
@@ -131,7 +133,7 @@ To add parallax, all you have to do is add two parallax containers, one right af
   </div>
 ```
 
-It's not working!!! Why?! It's beacause we still have to initialize - add the following code right after your modal initialization in the document ready function:
+It's not working!!! Why?! It's beacause we still have to initialize - add the following code right after your modal initialization in the ```init.js``` file:
 ```
   // parallax code from: http://materializecss.com/parallax.html
   $('.parallax').parallax();

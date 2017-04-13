@@ -2,7 +2,7 @@
 
 Welcome! We're going to build a landing page, so basically what we did last week but better and we'll do it in only **30 minutes**. Thanks, Materialize!
 
-We've given you an HTML file that's adapted from one of Materialize's starter template. You'll build a nice custom navbar with the help of the template code provided. We also have a nicely formatted section in the middle for you for some additional customizable content. 
+We've given you an HTML file that's adapted from one of Materialize's starter template. You'll build a nice custom navbar with the help of the template code provided. We also have a nicely formatted section in the middle for you for some additional customizable content.
 
 🚀 What do you need to add? Better title styles, images, and button effects! Plus, a modal **(OR SOMETHING ELSE IDK)**
 
@@ -87,17 +87,13 @@ Finally, add some classes to the anchor! You must add ```'modal-action'``` and `
 
 Now, when you click the modal button you'll notice it's not working yet... why not?!
 
-As it turns out, Materialize makes you initialize their Javascript components. That's easy enough - at the bottom of your ```body``` section, add the following code:
+As it turns out, Materialize makes you initialize their Javascript components. That's easy enough - at the bottom of your ```body``` section, there's a ```document.ready``` script - add this code to it for the modal to run:
 
 ```
-<script>
   // code from:http://materializecss.com/modals.html#!
   // additional help from: http://stackoverflow.com/questions/41626343/materialized-modal-not-displaying
   // this initializes all modals so they can be triggered
-  $(document).ready(function() {
-    $('.modal').modal();
-  });
-</script>
+  $('.modal').modal();
 ```
 
 This will initialize all modals on the page and let them run.

@@ -49,6 +49,10 @@ The logo looks too crammed in the corner right? Let's center this logo at the to
 Your logo should appear something like this:
 ![alt text](./img/logo_sc2.png)
 
+🚀 Now, let's create the right menu items and dropdown by using an unordered list. In the `<ul>` tag add to the class: `right hide-on-med-and-down` which will create a right oriented menu from the `li` tags. Include as many `li` tags as you wish with `anchor` inner tags with `#` as `href`. We will transform the last `li` item by adding to the `a` inner tag. Add `dropdown-button` to the `<a>` tag's class to indicate that it will be a dropdown button. For `data-activates` on the `<a>` tag (after class and href)set `dropdown` as a value. This will identify the dropdown content defined below. On the inner `<i>` tag set class to `material-icons right` to create the little arrow icon. You can experiment with this.
+
+🚀 The navbar looks good, but there is no content defined for the dropdown. Let's fix that!
+
 
 ## Stylize the icons
 

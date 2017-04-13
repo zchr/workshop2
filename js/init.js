@@ -5,6 +5,7 @@
 $(document).ready(function() {
   //initializing code goes here!
   $(".dropdown-button").dropdown({ hover: false });
+
   $('.modal').modal();
 
   // parallax code from: http://materializecss.com/parallax.html
